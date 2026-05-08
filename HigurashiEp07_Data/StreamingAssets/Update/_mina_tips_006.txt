@@ -13,7 +13,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和　　年　　月　　日（　　）",
-		   NULL, "Data:      Ano: ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Data:      /      /      ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -26,7 +26,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "来訪者　　前原圭一　外４名（関係：友人）",
-		   NULL, "Visitante: Maebara Keiichi e outras quatro amigas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Visitante: Maebara Keiichi e mais 4 pessoas (relação: amigos).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	SetSpeedOfMessage( FALSE, 0 );
 
@@ -35,7 +35,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "・北条サトコさんが叔父に虐待を受けているので、一時保護をしてほしい旨、訴えがありました。",
-		   NULL, "・ Eles estão solicitando proteção para Houjou Satoko-san, para salvá-la de ser abusada por seu tio.", Line_WaitForInput);
+		   NULL, "・ Solicitaram proteção temporária para Houjou Satoko-san, devido à alegação de ser abusada por seu tio.", Line_WaitForInput);
 	OutputLine(NULL, "（対応中？）",
 		   NULL, " (Já está sendo tratado?)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -43,7 +43,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "・冷蔵庫の掃除をしますので、私物は今夕までに片付けてください。",
-		   NULL, "・ Estou limpando a geladeira, então por favor\n  remova seus pertences pessoais até esta\n  noite.", Line_Normal);
+		   NULL, "・ Irei limpar a geladeira, então, por favor,\n  removam os pertences pessoais até\n  o final da tarde.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
