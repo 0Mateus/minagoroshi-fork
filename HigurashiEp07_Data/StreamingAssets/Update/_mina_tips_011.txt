@@ -44,12 +44,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　常に自分の中の神を信じよ。",
-		   NULL, "Tenha fé em seu Deus em todos os momentos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tenha fé no Deus dentro de ti, em todos os momentos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いつ日の光を浴びるかは、その神すらも知り得ないのだから。",
-		   NULL, "Seu Deus nem mesmo sabe quando verá a luz do dia.", Line_Normal);
+		   NULL, "Nem mesmo este Deus sabe quando verá a luz do dia.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -61,7 +61,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　常に勤勉であれ。",
-		   NULL, "Estude muito todos os dias.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Seja sempre diligente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
