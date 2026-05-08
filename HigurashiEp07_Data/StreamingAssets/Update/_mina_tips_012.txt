@@ -9,61 +9,61 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　神の子は自らが三日の後に復活すると予言しました。",
-		   NULL, "O Filho de Deus prometeu que ressuscitaria dentro de três dias.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O Filho de Deus prometeu que ressuscitaria em três dias.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　罪人たちは兵にて墓を封じ、その体が蘇ることがないよう監視しましたが、それはとても愚かしいことでした。",
-		   NULL, "Homens pecadores guardavam seu túmulo para garantir que ele não acordasse, mas isso foi uma tolice da parte deles.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Homens pecadores guardavam seu túmulo para garantir que seu corpo acordasse, mas isso foi uma tolice da parte deles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　復活とは肉体が蘇ることではなく、その心と教えが蘇ることだからです。",
-		   NULL, "Ele quis dizer que seu espírito e suas lições seriam ressuscitados, não a sua casca física.", Line_Normal);
+		   NULL, "Porque a ressurreição não se trata da reanimação do corpo físico, mas da revivificação do seu espírito e dos seus ensinamentos.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　肉体の死を恐れるな。",
-		   NULL, "Não tenha medo da morte física.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não tema a morte do seu corpo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自らの貢献が揺ぎ無いなら、必ず自分は蘇る。",
-		   NULL, "Se você conseguir grandes coisas, você viverá novamente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se suas contribuições forem inabaláveis, você ressuscitará.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、自分は死を超越し永遠の生を得るのである。",
-		   NULL, "Você superará a morte e se tornará imortal.", Line_Normal);
+		   NULL, "Nesse momento, você superará a morte e alcançará a vida eterna.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして悪魔は、神の子を断崖に連れて行き、飛び降りるように言いました。",
-		   NULL, "Um demônio levou o Filho de Deus a um penhasco e disse-lhe para pular.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O diabo levou o Filho de Deus a um penhasco e disse-lhe para pular.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自らが神の子を名乗るなら、神は奇跡にてその身を守るはずだと言うのです。",
-		   NULL, "Ele alegou que se ele fosse realmente um Filho de Deus, um milagre o ajudaria a sobreviver.", Line_Normal);
+		   NULL, "Ele alegou que, caso realmente fosse um Filho de Deus, um milagre o ajudaria a sobreviver.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを試すことは即ち、神を試すということです。",
-		   NULL, "Ele tentou desafiar o Senhor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Fazer isso é tentar a Deus.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　神は人を試しますが、人が神を試してはなりません。",
-		   NULL, "O Senhor desafia os humanos, mas os humanos não podem desafiar o Senhor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Deus tenta os humanos, mas os humanos não devem tentar a Deus.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -71,12 +71,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　試すことは疑うことです。",
-		   NULL, "Desafiar é suspeitar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tentar é duvidar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　疑いは悪魔の囁きに耳を貸し、あなたを堕落させるでしょう。",
-		   NULL, "A suspeita falará palavras malignas em seus ouvidos e fará você vacilar.", Line_Normal);
+		   NULL, "A dúvida fará com que ouça os sussurros do diabo e te levará ao mau caminho.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -93,7 +93,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自らの貢献を疑うな。",
-		   NULL, "Não duvide das suas contribuições.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não duvide das suas próprias contribuições.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -104,7 +104,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを試すということは、自らの人生を疑うのと同じことなのだ。",
-		   NULL, "Isso é o mesmo que duvidar da própria vida.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dar ouvidos à essas tentações é o mesmo que duvidar da sua própria vida.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
