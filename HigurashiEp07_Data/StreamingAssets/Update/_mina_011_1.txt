@@ -117,7 +117,7 @@ void main()
 		   NULL, "\"Ela acha que precisa lidar com isso sozinha, sem procurar a ajuda de ninguém?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100470", 256, TRUE);
 	OutputLine(NULL, "　……くそ、馬鹿が！！」",
-		   NULL, " Isso é rídiculo...!\"", Line_Normal);
+		   NULL, " Isso é ridículo...!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -135,7 +135,7 @@ void main()
 		   NULL, "\"Só isso já comprova?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6017", 256, TRUE);
 	OutputLine(NULL, "衣食も寝る場所もなくならないと虐待とは呼ばれないってのかよ！」",
-		   NULL, " Você está dizendo que não é abuso, desde que ela tenha o que comer comer e um lugar pra dormir?\"", Line_Normal);
+		   NULL, " Você está dizendo que não é abuso, desde que ela tenha o que comer e um lugar pra dormir?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -478,7 +478,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺は時々感情のままに八つ当たりすることがあるようだ。",
-		   NULL, "...Acho que às vezes tenho tendência a atacar as minhas emoções.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Acho que às vezes tenho tendência a descontar minhas emoções nos outros.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -752,7 +752,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　窓ガラスを割ってでも飛び込むような人たちじゃないってことだ。",
-		   NULL, "Não são eles que invadem, eles não tem o direito de quebrar janelas pra invadir.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não são eles que invadem, eles não têm o direito de quebrar janelas pra invadir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
